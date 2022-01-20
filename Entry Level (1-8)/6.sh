@@ -1,8 +1,8 @@
 #!/bin/bash
+#
+# Take 1 character from keyboard and print one's type
 
-read -sn 1 CHAR
-#Takes character from keyboard
-
+read -sn 1 CHAR # Takes exactly 1 character from keyboard
 case $CHAR in
   [[:lower:]] )
     echo "Lowercase character"
@@ -23,3 +23,4 @@ case $CHAR in
     echo "Space or something else"
     ;;
 esac	
+# See POSIX character classes.

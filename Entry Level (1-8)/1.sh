@@ -3,9 +3,9 @@
 # Check whether we works as root or non-root user
 
 if [[ `id -u` == 0 ]]; then
-	echo "You work as root"
+  echo "You work as root"
 else
-	echo "You work as Non-root"
+  echo "You work as Non-root"
 fi
 
 # Eng:
